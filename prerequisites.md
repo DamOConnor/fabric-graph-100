@@ -9,8 +9,9 @@
 - Permissions to create workspaces and items such as Lakehouse, Notebook and Graph Model.
 
 
-> [!HINT]
+> [!CAUTION]
 > Graph is available on F2 or above but the initial load is computationally intenstive so consider F8 at least.
+
 
 > [!TIP]
 > The Setup activity will create a new workspace (`Graph Tutorial`) and new Lakehouse in that workspace called `lh_graph`.
