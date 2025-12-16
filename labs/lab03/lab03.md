@@ -115,5 +115,5 @@ Add relationship via the Properties menu in the Model view
 - When would you use weighted vs unweighted graphs?
 
 ## Next Steps
-- [Lab 04 - Movies](/labs/lab04/lab04.md)
+- [Lab 04 - Model the room](/labs/lab04/lab04.md)
 - [Home](/README.md)
