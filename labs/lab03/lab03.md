@@ -67,7 +67,7 @@ The configuration should look like this:
 
 5.  Add **relationship** to the graph via the Properties menu
  - Click on **Model** in the **Modes** section on the left-hand side
- - Click on the relationship `follows`
+ - Double-click on the relationship `follows`
  - Click on **Properties** and add in `relationship` as a `string`
 
 ![Add relationship](/labs/lab03/images/add-relationship.png)

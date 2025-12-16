@@ -71,7 +71,7 @@ The configuration should look like this:
 
 5.  Add **weight** to the graph via the Properties menu
  - Click on **Model** in the **Modes** section on the left-hand side
- - Click on the relationship `relatesTo`
+ - Double-click on the relationship `relatesTo`
  - Click on **Properties** and add in `weight` as an `integer`
 
 ![Add weight](/labs/lab02/images/add-weight.png)
