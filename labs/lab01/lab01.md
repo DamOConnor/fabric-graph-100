@@ -16,7 +16,7 @@ This lab will create a simple graph based on the Wikipedia page [Graph](https://
 > Enter `graph` in the filter box to filter items
 
 - Select `Graph model (preview)`
-- Name it `grp1to6` and click **Create**
+- Name it `grph1to6` and click **Create**
 
 ![Create Graph Model](/labs/lab01/images/create-graph-model.png)
 

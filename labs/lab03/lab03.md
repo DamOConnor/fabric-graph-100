@@ -1,8 +1,9 @@
-# Lab 02 - Weighted Graph
+# Lab 03 - Social Network
 
-![Weighted Graph](/labs/lab02/images/Weighted_network.png)
+![graphframes tutorial](/labs/lab03/images/graph-frames-tutorial.png)
 
-This lab will create a simple graph based on weighted graph example from the Wikipedia page [Graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)).  It will work with the tables `nod_letters` and `edg_letters` which were created by the initial notebook.  There will be fewer screenshots in this lab as the first lab should have established the principles.
+This lab recreates the social network data
+from the [graphframes tutorial](https://github.com/graphframes/graphframes).  It will work with the tables `nod_person` and `edg_follows` which were created by the initial notebook.
 
 > [!IMPORTANT]  
 > Make sure you have run some SQL queries against the tables first.
@@ -10,18 +11,13 @@ This lab will create a simple graph based on weighted graph example from the Wik
 ## Steps
 
 1. Create a new graph item  
-- From the home page of your workspace, click **+ New item**  
+- From the home page of your workspace, click **+ New item**
 
 > [!TIP]
 > Enter `graph` in the filter box to filter items
 
 - Select `Graph model (preview)`
-- Name it `grphWeighted` and click **Create**
-
-> [!TIP]
-> For those of you who don't believe in being able to effectively troubleshoot problems at 3am, please feel free to leave the item type prefix **off**.
-
-
+- Name it `grphSocial` and click **Create**
 
 
 2. Add data to the graph
@@ -31,7 +27,7 @@ This lab will create a simple graph based on weighted graph example from the Wik
 -  Double-click your Lakehouse or click the **Connect** button on the lower right-hand side
 
 - A list of tables should appear
-- Select `nod_letters` and `edg_letters`
+- Select `nod_person` and `edg_follows`
 - Click **Load**
 - The two tables should appear on the right in the **Data** section
 
@@ -41,13 +37,13 @@ This lab will create a simple graph based on weighted graph example from the Wik
 
 | Property      | Value         |
 |---------------|---------------|
-| Label         | Letters       |
-| Mapping Table | nod_letters   |
-| Id            | letters        |
+| Label         | Person        |
+| Mapping Table | nod_person    |
+| Id            | personId      |
 
 The configuration should look like this:
 
-![Node Config](/labs/lab02/images/node-config.png)
+![Node Config](/labs/lab03/images/node-config.png)
 
 - Click **Confirm**
 
@@ -57,22 +53,22 @@ The configuration should look like this:
 
 | Property                  | Value         |
 |---------------------------|---------------|
-| Label                     | relatesTo     |
-| Mapping Table             | edg_letters   |
-| Source Node               | Letters       |
-| Mapping table column from | fromLetter    |
-| Target Node               | Letters       |
-| Mapping table column to   | toLetter      |
+| Label                     | follows       |
+| Mapping Table             | edg_follows   |
+| Source Node               | Person        |
+| Mapping table column from | src           |
+| Target Node               | Person        |
+| Mapping table column to   | dst           |
 
-![Edge Config](/labs/lab02/images/edge-config.png)
+![Edge Config](/labs/lab03/images/edge-config.png)
 
 
-5.  Add **weight** to the graph via the Properties menu
+5.  Add **relationship** to the graph via the Properties menu
  - Click on **Model** in the **Modes** section on the left-hand side
- - Click on the relationship `relatesTo`
- - Click on **Properties** and add in `weight` as an `integer`
+ - Click on the relationship `follows`
+ - Click on **Properties** and add in `relationship` as a `string`
 
-![Add weight](/labs/lab02/images/add-weight.png)
+![Add relationship](/labs/lab03/images/add-relationship.png)
 
 
 - Click **Save**.  This may take some time.  Allow several minutes.
@@ -86,11 +82,12 @@ The configuration should look like this:
 - Press **Run query**
 
 7. Arrange the graph
-- After running the query, show the weight property on the edge `relatesTo`
+- After running the query, show the relationship property on the edge `follows`
 
-![Weighted Graph](/labs/lab02/images/weighted-graph.png)
+![Weighted Graph](/labs/lab03/images/alice-bob.png)
 
-- Observe the `weights` property on the relationship
+- Observe the `relationship` property
+- Configure the node to show the `name` property
 
 > [!TIP]
 > Yes the waits on loading relatively small volumes of data into graph can become frustrating while the product is in preview!
@@ -98,8 +95,8 @@ The configuration should look like this:
 ## Exercises
 The exercises do **not** contain step by step instructions.  Work with the existing lab instructions, your colleagues and the instructor to complete them.
 
-### Exercise 2.1
-- Make sure you can see the weight on the edge.  If you can't add it, you might have missed a step.
+### Exercise 3.1
+- Make sure you can see the relationship on the edge.  If you can't add it, you might have missed a step.
 - Go back to the graph model and fix it up
 
 > [!TIP]
@@ -107,10 +104,10 @@ The exercises do **not** contain step by step instructions.  Work with the exist
 
 <details>
 <summary>💡 Hint</summary>
-Add weight via the Properties menu in the Model view
+Add relationship via the Properties menu in the Model view
 </details>
 
-### Exercise 2.2
+### Exercise 3.2
 - Click **Query Builder** > **Code Editor**.  What do you see?
 
 ## Questions
@@ -118,5 +115,5 @@ Add weight via the Properties menu in the Model view
 - When would you use weighted vs unweighted graphs?
 
 ## Next Steps
-- [Lab 03 - Social Network](/labs/lab03/lab03.md)
+- [Lab 04 - Movies](/labs/lab04/lab04.md)
 - [Home](/README.md)

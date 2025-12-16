@@ -17,8 +17,8 @@ You should have some familiarity with Microsoft Fabric and Graph technologies.  
 - [Setup](/setup.md)
 - [Lab 01 - Numbers](/labs/lab01/lab01.md)
 - [Lab 02 - Weighted Graph](/labs/lab02/lab02.md)
-- ~~[Lab 03 - Social Network](/labs/lab03/lab03.md)~~
-- ~~[Lab 04 - Film Data](/labs/lab04/lab04.md)~~
+- [Lab 03 - Social Network](/labs/lab03/lab03.md)
+- ~~[Lab 04 - Movies](/labs/lab04/lab04.md)~~
 
 
 > [!NOTE]
