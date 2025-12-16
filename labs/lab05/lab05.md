@@ -14,6 +14,9 @@ There are **no** detailed instructions for this lab.  Load the data from the dat
 - Add nodes director, film, actor
 - Add edges directed, appearedIn
 
+## Example
+
+![chris](/labs/lab05/images/chris-nolan.png)
 
 ## Next Steps
 - [Home](/README.md)
