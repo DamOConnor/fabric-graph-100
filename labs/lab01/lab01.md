@@ -23,7 +23,7 @@ This lab will create a simple graph based on the Wikipedia page [Graph](https://
 2. Add data to the graph
 - Click the **Get data** button
 - Select the Lakehouse from the workspace created earlier
-![image](/labs/lab01/images/select-lakehouse.png)
+![Select Lakehouse](/labs/lab01/images/select-lakehouse.png)
 
 -  Double-click your Lakehouse or click the **Connect** button on the lower right-hand side
 
@@ -96,7 +96,7 @@ The exercises do **not** contain step by step instructions.  Work with the exist
 - Go back to the notebook and fix it up
 
 > [!TIP]
-> Create a new graph item with updated data rather than attempt to attempting to update your existing item
+> Create a new graph item with updated data rather than attempting to update your existing item
 
 <details>
 <summary>💡 Hint</summary>
