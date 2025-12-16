@@ -86,7 +86,7 @@ The configuration should look like this:
 ![Broken Graph](/labs/lab01/images/broken-graph.png)
 
 > [!TIP]
-> Generally speaking, rearrange the graph is a waste of time as the layout is not saved.  However it will be useful for this exercise.
+> Generally speaking, rearranging the graph is a waste of time as the layout is not saved.  However it will be useful for this exercise.
 
 ## Exercises
 The exercises do **not** contain step by step instructions.  Work with the existing lab instructions, your colleagues and the instructor to complete them.
@@ -96,7 +96,7 @@ The exercises do **not** contain step by step instructions.  Work with the exist
 - Go back to the notebook and fix it up
 
 > [!TIP]
-> Recreate your graph item rather than attempt to attempting to update it
+> Create a new graph item with updated data rather than attempt to attempting to update your existing item
 
 <details>
 <summary>💡 Hint</summary>
@@ -116,7 +116,7 @@ Go back to the notebook if you are stuck. Check the edge table for missing relat
 - Why did we need to run SQL queries against the tables before beginning this lab?  What else could we have done for the same outcome?
 
 > [!TIP]
-> Move on to the next lab.  It's more interesting that attempting to remodel the data.
+> Move on to the next lab.  It's more interesting than attempting to remodel the data.
 
 ## Next Steps
 - [Lab 02 - Weighted Graph](/labs/lab02/lab02.md)
