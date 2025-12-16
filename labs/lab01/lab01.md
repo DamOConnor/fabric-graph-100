@@ -1,5 +1,7 @@
 # Lab 01 - Numbers
 
+![lablevel](https://img.shields.io/badge/Lab%20Difficulty-Easy-green)
+
 ![Graph 1 to 6](/labs/lab01/images/graph-1-6.png)
 
 This lab will create a simple graph based on the Wikipedia page [Graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)).  It will work with the tables `nod_numbers` and `edg_numbers` which were created by the initial notebook.

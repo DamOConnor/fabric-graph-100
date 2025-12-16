@@ -1,5 +1,7 @@
 # Lab 02 - Weighted Graph
 
+![lablevel](https://img.shields.io/badge/Lab%20Difficulty-Easy-green)
+
 ![Weighted Graph](/labs/lab02/images/Weighted_network.png)
 
 This lab will create a simple graph based on weighted graph example from the Wikipedia page [Graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)).  It will work with the tables `nod_letters` and `edg_letters` which were created by the initial notebook.  There will be fewer screenshots in this lab as the first lab should have established the principles.

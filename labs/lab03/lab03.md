@@ -1,5 +1,7 @@
 # Lab 03 - Social Network
 
+![lablevel](https://img.shields.io/badge/Lab%20Difficulty-Medium-orange)
+
 ![graphframes tutorial](/labs/lab03/images/graph-frames-tutorial.png)
 
 This lab recreates the social network data
