@@ -16,7 +16,7 @@ This lab will create a simple graph based on the Wikipedia page [Graph](https://
 > Enter `graph` in the filter box to filter items
 
 - Select `Graph model (preview)`
-- Name it `grp1to6`
+- Name it `grp1to6` and click **Create**
 
 ![Create Graph Model](/labs/lab01/images/create-graph-model.png)
 
@@ -66,9 +66,11 @@ The configuration should look like this:
 
 ![Edge Config](/labs/lab01/images/edge-config.png)
 
-Click **Save**.  This may take some time.  Allow several minutes.
+- Click **Save**.  This may take some time.  Allow several minutes.
 
 ![Save Graph](/labs/lab01/images/save-graph.png)
+
+- When the Load banner disappears, the graph data should be loaded
 
 5. Render the graph
 - Click on **Query**
@@ -100,6 +102,9 @@ The exercises do **not** contain step by step instructions.  Work with the exist
 <summary>💡 Hint</summary>
 Go back to the notebook if you are stuck. Check the edge table for missing relationships.
 </details>
+
+### Exercise 1.2
+- Click **Query Builder** > **Code Editor**.  What do you see?
 
 ## Questions
 - Why graph?
