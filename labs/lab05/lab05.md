@@ -8,7 +8,12 @@ There are **no** detailed instructions for this lab.  Load the data from the dat
 
 1.  Copy all the files from the `data` directory into your Lakehouse `Files` area
 2.  Use the `Load to tables` process for each file.  The files are parquet format.
+- Create them as new tables
 3.  Inspect the loaded files in the Lakehouse
+4.  Create a graph ...
+- Add nodes director, film, actor
+- Add edges directed, appearedIn
+
 
 ## Next Steps
 - [Home](/README.md)
