@@ -68,6 +68,7 @@ The configuration should look like this:
 
 ![Edge Config](/labs/lab01/images/edge-config.png)
 
+- Click **Confirm**
 - Click **Save**.  This may take some time.  Allow several minutes.
 
 ![Save Graph](/labs/lab01/images/save-graph.png)
