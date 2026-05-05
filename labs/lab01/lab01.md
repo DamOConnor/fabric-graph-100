@@ -122,6 +122,7 @@ Go back to the notebook if you are stuck. Check the edge table for missing relat
 > Move on to the next lab.  It's more interesting than attempting to remodel the data.
 
 ## Next Steps
+- [Lab 01.1 - Shortest Path](/labs/lab01/lab01_1.md)
 - [Lab 02 - Weighted Graph](/labs/lab02/lab02.md)
 - [Home](/README.md)
 
