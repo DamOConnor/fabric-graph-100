@@ -125,5 +125,3 @@ Go back to the notebook if you are stuck. Check the edge table for missing relat
 - [Lab 01.1 - Shortest Path](/labs/lab01/lab01_1.md)
 - [Lab 02 - Weighted Graph](/labs/lab02/lab02.md)
 - [Home](/README.md)
-
-
