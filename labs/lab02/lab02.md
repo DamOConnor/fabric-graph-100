@@ -120,5 +120,6 @@ Add weight via the Properties menu in the Model view
 - When would you use weighted vs unweighted graphs?
 
 ## Next Steps
+- [Lab 02.1 - Shortest Path](/labs/lab02/lab02_1.md)
 - [Lab 03 - Social Network](/labs/lab03/lab03.md)
 - [Home](/README.md)
